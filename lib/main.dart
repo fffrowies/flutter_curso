@@ -19,19 +19,38 @@ class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
       'questionText': 'What\'s your favorite color?',
-      'answers': ['Black', 'Red', 'Green', 'White'],
+      'answers': [
+        {'text': 'Black', 'score': 10},
+        {'text': 'Red', 'score': 4},
+        {'text': 'Green', 'score': 8},
+        {'text': 'White', 'score': 5},
+      ],
     },
     {
       'questionText': 'What\'s your favorite animal?',
-      'answers': ['Dog', 'Cat', 'Horse', 'Monkey'],
+      'answers': [
+        {'text': 'Dog', 'score': 5},
+        {'text': 'Cat', 'score': 2},
+        {'text': 'Horse', 'score': 9},
+        {'text': 'Monkey', 'score': 1},
+      ],
     },
     {
       'questionText': 'What\'s your favorite game?',
-      'answers': ['Sims', 'Counter', 'Fifa'],
+      'answers': [
+        {'text': 'Sims', 'score': 3},
+        {'text': 'Fifa', 'score': 6},
+        {'text': 'Counter', 'score': 7},
+      ],
     },
     {
       'questionText': 'What\'s your favorite team?',
-      'answers': ['Boca Juniors', 'River Plate', 'San Lorenzo', 'Barcelona'],
+      'answers': [
+        {'text': 'Boca Juniors', 'score': 4},
+        {'text': 'River Plate', 'score': 5},
+        {'text': 'San Lorenzo', 'score': 9},
+        {'text': 'Huracán', 'score': 2},
+      ],
     },
   ];
   var _questionIndex = 0;
