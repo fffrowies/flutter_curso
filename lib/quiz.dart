@@ -6,7 +6,7 @@ import './answer.dart';
 class Quiz extends StatelessWidget {
   final List<Map<String, Object>> questions;
   final int questionIndex;
-  final Function answerQuestion; // FR (revertido en 053)
+  final Function answerQuestion; // FR (reverted en 053)
 
   Quiz({
     required this.questions, // FR
